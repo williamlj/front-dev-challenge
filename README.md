@@ -13,5 +13,9 @@ I've never used lit-element/lit-html so this was interesting. I did encounter a 
 default book, so instead of downloading the JSON I proxied it with cors-anywhere.
 
 
-In order to test switching the ISBN I also downloaded the library JSON from Bibliotek to display a list of book
+In order to test switching the ISBN I also downloaded the library JSON from Bibliotek to display a list of books
 in "My Library". Clicking on those fetches the relevant JSON from https://bibliotech.education/books/ISBN/index.json.
+
+Nesting templates is interesting (and more than one way to do it) and also the directives are nice. "Until" and "Repeat" (tried both just a simple map, and repeat for fun &#8212 not necessary here but from the docs it has advantages when the it gets larger/more complex DOM updates).
+
+Other than the docs listed, not a lot of info online yet (and most of it seems to be around Angular). 
