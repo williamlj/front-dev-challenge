@@ -69,7 +69,7 @@ class MyApp extends LitElement {
         ${this.bookRequest}
       </header>
       <div class="app-footer">
-        <my-library libraryUrl="http://localhost/"></my-library>
+        <my-library></my-library>
       </div>
     `;
   }
